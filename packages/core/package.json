@@ -1,0 +1,6 @@
+{
+  "name":"@proofsettle/core","version":"1.0.0","private":true,"type":"module",
+  "scripts":{"build":"tsc --noEmit false","test":"npm run build && node --test test/*.test.mjs","typecheck":"tsc --noEmit"},
+  "dependencies":{"@gluwa/usc-sdk":"^0.18.0","viem":"^2.21.19"},
+  "devDependencies":{"typescript":"^5.7.2","@types/node":"^22.10.2"}
+}
